@@ -6,26 +6,21 @@ using namespace std;
 
 class Person {
     private:
-        std::string name;
+        string name;
         int id;
     public:
         
         Person(){};
-        Person(std::string name, int id) {};
+        Person(string name, int id) {};
         ~Person(){};
         void display();
+        void setName(string name){ };
+        void setId(int id){};
+        string getName(){};
+        int getid(){};
+        
 
 };
 
-
-
-
-
-
-
-
-
-
-
-
 #endif
+
